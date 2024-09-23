@@ -1,4 +1,10 @@
-/* Estilos básicos para el sitio web */
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +12,9 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: GlacialIndifference, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,15 +24,14 @@ body {
 
 .container {
   text-align: center;
-  background-color: #fff;
-  padding: 20px 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 600px;
+}
+
+.logo {
+  padding-bottom: 75px;
 }
 
 .logo img {
-  width: 150px;
+  width: 200px;
   margin-bottom: 20px;
 }
 
@@ -53,7 +58,7 @@ h2 {
 }
 
 .contact-info a {
-  color: #3498db;
+  color: #ffffff;
   text-decoration: none;
 }
 
