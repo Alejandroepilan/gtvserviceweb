@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GTV Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-black">
+    <!-- Header -->
+    <header class="bg-black text-white">
+      <div class="container mx-auto flex justify-between p-4">
+        <!--<div class="text-2xl font-bold">GTV Service</div>-->
+        <div><img src="logo.png" alt="GTV Service Logo" class="w-20" /></div>
+        <nav class="flex items-center justify-center">
+          <ul class="flex space-x-4">
+            <li><a href="#home" class="hover:text-gray-400">Inicio</a></li>
+            <li>
+              <a href="#services" class="hover:text-gray-400">Servicios</a>
+            </li>
+            <li><a href="#clients" class="hover:text-gray-400">Clientes</a></li>
+            <li><a href="#contact" class="hover:text-gray-400">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main
+      id="home"
+      class="min-h-screen flex items-center justify-center bg-gray-100"
+    >
+      <div class="text-center">
+        <h1 class="text-4xl font-bold text-black mb-32">
+          Transporte seguro y confiable de vehículos a la ITV
+        </h1>
+        <a
+          href="#services"
+          class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800"
+          >Solicitar Servicio</a
+        >
+      </div>
+    </main>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Nuestros Servicios</h2>
+        <div class="flex justify-center space-x-12">
+          <div>
+            <div class="text-2xl font-bold mb-2">🚗</div>
+            <h3 class="text-xl font-semibold mb-2">Transporte de Vehículos</h3>
+            <p class="text-gray-600">
+              Servicio seguro y eficiente de traslado de vehículos a la ITV.
+            </p>
+          </div>
+          <div>
+            <div class="text-2xl font-bold mb-2">📑</div>
+            <h3 class="text-xl font-semibold mb-2">Gestión Administrativa</h3>
+            <p class="text-gray-600">
+              Nos encargamos de todos los documentos y pagos de la ITV.
+            </p>
+          </div>
+          <div>
+            <div class="text-2xl font-bold mb-2">🔁</div>
+            <h3 class="text-xl font-semibold mb-2">
+              Servicio de Repetición ITV
+            </h3>
+            <p class="text-gray-600">
+              Gestionamos tu revisión si necesitas una repetición de ITV.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-20 bg-gray-100">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Nuestros Clientes</h2>
+        <div class="space-y-6">
+          <p class="text-xl font-semibold">
+            "GTV Service ofrece un servicio rápido y eficiente." - Taller XYZ
+          </p>
+          <p class="text-xl font-semibold">
+            "Confío en ellos para todas nuestras necesidades de ITV." -
+            Concesionario ABC
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Contacto</h2>
+        <p class="mb-4">Contáctanos para más información:</p>
+        <p class="mb-4">Teléfono: +34 123 456 789</p>
+        <p class="mb-4">Email: info@gtvservice.com</p>
+        <form class="max-w-md mx-auto">
+          <div class="mb-4">
+            <input
+              type="text"
+              placeholder="Nombre"
+              class="w-full p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <div class="mb-4">
+            <input
+              type="email"
+              placeholder="Correo"
+              class="w-full p-2 border border-gray-300 rounded"
+            />
+          </div>
+          <div class="mb-4">
+            <textarea
+              placeholder="Mensaje"
+              class="w-full p-2 border border-gray-300 rounded"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white p-4 text-center">
+      <p>© 2024 GTV Service. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
